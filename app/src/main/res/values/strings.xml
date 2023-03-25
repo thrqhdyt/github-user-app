@@ -9,4 +9,9 @@
     <string name="content_tab_followers">this is tab %1%d</string>
     <string name="tab_text_1">Followers</string>
     <string name="tab_text_2">Following</string>
+    <string name="setting">Setting</string>
+    <string name="light_mode">Change Theme to Dark Mode  </string>
+    <string name="dark_mode">Change Theme to Light Mode  </string>
+    <string name="menu_favorite">Menu Favorite</string>
+    <string name="share">share</string>
 </resources>

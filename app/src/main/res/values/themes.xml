@@ -1,7 +1,7 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <!-- Base application theme. -->
     <style name="Theme.GithubUserApp" parent="Theme.Material3.Light">
-        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorPrimary">@color/md_theme_light_inversePrimary</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
         <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
         <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
@@ -26,10 +26,7 @@
         <item name="colorOutline">@color/md_theme_light_outline</item>
         <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
         <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
-        <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
-        <item name="titleTextColor">@color/md_theme_light_onPrimary</item>
-        <item name="android:editTextColor">@color/md_theme_light_onPrimary</item>
-        <item name="android:textColorHint">#9EA7C2</item>
+        <item name="colorPrimaryInverse">@color/md_theme_dark_inversePrimary</item>
     </style>
 
     <style name="ImageRoundedStyle">
