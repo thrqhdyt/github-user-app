@@ -1,6 +1,6 @@
 package com.thorcode.githubuserapp
 
-import com.thorcode.githubuserapp.api.ApiService
+import com.thorcode.githubuserapp.core.data.source.remote.network.ApiService
 import kotlinx.coroutines.runBlocking
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer

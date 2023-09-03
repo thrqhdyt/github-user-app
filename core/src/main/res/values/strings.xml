@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Github User App</string>
+    <string name="name">Leo Messi</string>
+    <string name="search_hint">Search name…</string>
+    <string name="followers">%d Followers</string>
+    <string name="following">%d Following</string>
+    <string name="username_detail">leo_messi30</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="content_tab_followers">this is tab %1%d</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="setting">Setting</string>
+    <string name="light_mode">Change Theme to Dark Mode  </string>
+    <string name="dark_mode">Change Theme to Light Mode  </string>
+    <string name="menu_favorite">Menu Favorite</string>
+    <string name="share">share</string>
+
+    <style name="ImageRoundedStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

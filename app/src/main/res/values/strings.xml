@@ -14,4 +14,5 @@
     <string name="dark_mode">Change Theme to Light Mode  </string>
     <string name="menu_favorite">Menu Favorite</string>
     <string name="share">share</string>
+    <string name="title_favorite">Favorite</string>
 </resources>
