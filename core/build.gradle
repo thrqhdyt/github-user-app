@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         minSdk 16
-        buildConfigField("String", "API_KEY", '"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"' )
+        buildConfigField("String", "API_KEY", '"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"' )
         multiDexEnabled true
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
