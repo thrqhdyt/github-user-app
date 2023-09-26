@@ -16,7 +16,7 @@ interface FavoriteUserDao {
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     suspend fun insertToFav(favoriteUser: List<FavoriteUser>)
 
-    @Upsert
+    @Update
     fun updateUser(user: FavoriteUser)
 
     @Insert
