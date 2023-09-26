@@ -76,8 +76,8 @@ class DetailActivity : AppCompatActivity() {
             supportActionBar?.title = detailUser?.username
             binding.tvNameDetail.text = detailUser?.name
             binding.tvUsernameDetail.text = detailUser?.username
-            binding.tvFollowers.text = resources.getString(R.string.followers, it?.followers ?: 0)
-            binding.tvFollowing.text = resources.getString(R.string.following, it?.following ?: 0)
+            binding.tvFollowers.text = resources.getString(R.string.followers, it?.followers?.toInt() ?: 0)
+            binding.tvFollowing.text = resources.getString(R.string.following, it?.following?.toInt() ?: 0)
             Glide.with(this)
                 .load(detailUser?.avatarUrl)
                 .into(binding.avatarDetail)
