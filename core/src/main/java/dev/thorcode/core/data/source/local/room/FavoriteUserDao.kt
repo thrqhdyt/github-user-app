@@ -22,6 +22,15 @@ interface FavoriteUserDao {
     @Insert
     fun insertUserFav(user: FavoriteUser)
 
+    @Transaction
+    fun upsertUser(user: FavoriteUser) {
+        if (isExistUser(user.id)){
+            updateUser(user)
+        } else {
+            insertUserFav(user)
+        }
+    }
+
     @Query("DELETE FROM user where isFavorite = 0")
     fun deleteAll()
 

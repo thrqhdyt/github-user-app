@@ -8,7 +8,7 @@ import androidx.room.PrimaryKey
 data class FavoriteUser(
     @PrimaryKey(autoGenerate = false)
     @ColumnInfo(name = "id")
-    val id: Int,
+    val id: Int = 0,
 
     @ColumnInfo(name = "username")
     var username: String = "",

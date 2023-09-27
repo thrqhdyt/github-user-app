@@ -5,11 +5,8 @@
     <string name="followers">%s Followers</string>
     <string name="following">%s Following</string>
     <string name="username_detail">leo_messi30</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="content_tab_followers">this is tab %1%d</string>
     <string name="tab_text_1">Followers</string>
     <string name="tab_text_2">Following</string>
-    <string name="setting">Setting</string>
     <string name="light_mode">Change Theme to Dark Mode  </string>
     <string name="dark_mode">Change Theme to Light Mode  </string>
     <string name="menu_favorite">Menu Favorite</string>

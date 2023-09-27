@@ -14,6 +14,6 @@ class LocalDataSource(private val userDao: FavoriteUserDao){
 
     fun setFavoriteUser(user: FavoriteUser, newState: Boolean) {
         user.isFavorite = newState
-        userDao.updateUser(user)
+        userDao.upsertUser(user)
     }
 }
